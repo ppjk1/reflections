@@ -1,0 +1,96 @@
+Q1:
+How did viewing a diff between two versions of a file help you see the bug
+that was introduced?
+
+A1:
+It greatly reduced the number of lines that needed to be scanned/compared by
+eye. This reduced time involved but also (more importantly) reduced the chance
+of human error.
+
+***
+
+Q2:
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+A2:
+If I write a function for a feature, then delete the function when the
+features changes, but then the client wants the feature back? Instead of
+rewriting the feature from scratch or spending a lot of time trying to
+remember how I implemented it (and then debugging it again), I can just refer to
+the old version.
+
+Also, if I find an implementation that solves a general case,
+and the case comes up again, I can easily reference the earlier implementation
+that solved it, even if that code is no longer in Production.
+
+And as already shown, if something was working before I made changes, and now
+it's not, I can easily do a diff to see what changed and find the bug I just
+introduced.
+
+***
+
+Q3:
+What do you think are the pros and cons of manually choosing when to create
+a commit, like you do in Git, vs having versions automatically saved, like
+Google Docs does?
+
+A3:
+Cons: You might not be diligent. You might forget to commit. You could be really
+bad at choosing logical commit points. Your machine might crash just before you
+were about to commit a change and you lose your work.
+
+Pros: You can pick logical commit points, so they're meaningful and hopefully
+functional.
+
+***
+
+Q4:
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+A4:
+Git is built with software development in mind. It understands that many times,
+multiple files will be related and need corresponding changes at the same time.
+Google Docs, on the other hand, is probably oriented more toward word
+processing where documents are edited one-at-a-time and inter-document
+relations/dependencies are scarce.
+
+***
+
+Q5:
+How can you use the commands git log and git diff to view the history of files?
+
+A5:
+git log shows all of the commits for a given repository. This is helpful to
+find a specific commit and associated ID as well as to review the history of
+edits. It lets you view the evolution, if you will, of the repository by means
+of the commit messages.
+
+git diff then allows you to compare two commits. They can be chronologically
+side-by-side for a snapshot change (probably the most common use case) or they
+can be pulled from anywhere in the history (probably less useful for debugging).
+
+***
+
+Q6:
+How might using version control make you more confident to make changes that
+could break something?
+
+A6:
+It takes the danger out of things a bit. If something doesn't work right, just
+roll back and look at what you changed. Version control removes the need to
+comment out old code to save it while working on new code. And even when the
+new code is working? You can confidently delete the old code, knowing you will
+still have it in the version history. That's an incredible feeling.
+
+***
+
+Q7:
+Now that you have your workspace set up, what do you want to try using Git for?
+
+A7:
+Adding my movie website project as a repository. Could be interesting to add
+this reflections directory as a repository as well, though it's not really
+needed. I'm not editing these reflections, just adding to them sequentially.
+Might be good practice, though.
