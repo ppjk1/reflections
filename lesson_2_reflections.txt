@@ -40,3 +40,14 @@ A4:
 As noted in the training, when you want to create alternate versions of your
 code, or when you want to try a new feature without disrupting the production
 codebase. Branches give you this flexibility.
+
+***
+
+Q5:
+How do the diagrams help you visualize the branch structure?
+
+A5:
+Git log doesn't do a great job with the graphing. So diagramming helps you see
+which commits have visibility into which other commits and whether you're
+veering off into unsafe territory where you really should create a new branch
+to capture your work.
