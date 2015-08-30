@@ -20,3 +20,23 @@ working directory into the repository. So you don't have to track everything.
 Or if you have multiple branches, you can add some files to one branch, then
 swap into another branch and add other files to that one. All from within a
 single working directory.
+
+***
+
+Q3:
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+A3:
+Only add modified files to the staging area.
+
+***
+
+Q4:
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+A4:
+As noted in the training, when you want to create alternate versions of your
+code, or when you want to try a new feature without disrupting the production
+codebase. Branches give you this flexibility.
