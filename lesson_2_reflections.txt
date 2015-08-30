@@ -1,0 +1,22 @@
+Q1:
+What happens when you initialize a repository? Why do you need to do it?
+
+A1:
+Git adds a .git folder to the directory you created the repository in. If you
+want to use version control, you have to initialize the repository. Git won't
+know about the repository otherwise.
+
+***
+
+Q2:
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+
+A2:
+It's a holding area. It's temporary storage. It's neither the working directory
+nor the repository.
+It seems like it offers the possibility to only commit certain files from a
+working directory into the repository. So you don't have to track everything.
+Or if you have multiple branches, you can add some files to one branch, then
+swap into another branch and add other files to that one. All from within a
+single working directory.
