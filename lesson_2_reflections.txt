@@ -51,3 +51,20 @@ Git log doesn't do a great job with the graphing. So diagramming helps you see
 which commits have visibility into which other commits and whether you're
 veering off into unsafe territory where you really should create a new branch
 to capture your work.
+
+***
+
+Q6:
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+A6:
+If the merge is successful, the result will be a new commit at the tip of the
+currently checked out branch. The files in the commit will be a composite of
+all of the changes in the checked out branch and all of the changes in the
+merged branch. That is, additions to either branch will be included. Deletions
+from either branch will not be included.
+
+We represent it as two branches combining or merging, because this is what's
+occurring with the changes. The new commit really is a composite of both
+branches that were merged.
