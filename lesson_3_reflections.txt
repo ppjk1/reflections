@@ -9,3 +9,13 @@ sync.
 If I'm working with a team, a remote repository is pretty much a necessity.
 
 If I want some data loss protection, then a remote acts like another backup.
+
+***
+
+Q2:
+Why might you want to always pull changes manually rather than having Git
+automatically stay up-to-date with your remote repository?
+
+A2:
+The remote repo could be updated by someone else, and their code additions
+could cause trouble or distract you from work you're currently doing.
