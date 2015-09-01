@@ -1,0 +1,11 @@
+Q1:
+When would you want to use a remote repository rather than keeping all your work local?
+
+A1:
+If I split my work time between the office and home and actually perform my work on
+two separate computers, I can use a remote repository to keep my files more easily in
+sync.
+
+If I'm working with a team, a remote repository is pretty much a necessity.
+
+If I want some data loss protection, then a remote acts like another backup.
