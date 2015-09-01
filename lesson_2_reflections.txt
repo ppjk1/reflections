@@ -68,3 +68,17 @@ from either branch will not be included.
 We represent it as two branches combining or merging, because this is what's
 occurring with the changes. The new commit really is a composite of both
 branches that were merged.
+
+***
+
+Q7:
+What are the pros and cons of Git’s automatic merging vs. always doing merges
+manually?
+
+A7:
+Automatic merging works great to keep the development process moving without
+developers needing to do tons of code reviews of each other's work and hold
+meetings/calls each time they have independent changes. Cons? Git doesn't
+understand your code the way you do, so it can't make as intuitive decisions as
+you yourself might. It may ask you more questions than you'd like about what to
+keep and what to throw away. Still, seems like a huge time-saver to me.
