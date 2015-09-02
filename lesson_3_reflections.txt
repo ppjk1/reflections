@@ -46,3 +46,20 @@ A4:
 You can pull down other team member's contributions and then access them
 off-line for local comparison. Well, and I assume it's always easier to deal
 with conflicts locally.
+
+***
+
+Q5:
+How would you collaborate without using Git or GitHub? What would be easier,
+and what would be harder?
+
+A5:
+I'd probably use versioned folders on a shared filer or web server (something
+I've literally done dozens and dozens of times in a previous life).
+This is easier because there are no git commands to remember, no required
+understanding of concepts like branches, commits, merges, etc. It's harder,
+however, because everything has to be explicitly communicated. Lots of folders
+must be created. Lots of comments included. I have to devise new systems for
+conveying change information and get the team to agree to standardize on the
+system. Most importantly, I don't have the version control, the automated
+comparison tools, etc. 
