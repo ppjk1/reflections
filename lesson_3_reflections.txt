@@ -62,4 +62,23 @@ however, because everything has to be explicitly communicated. Lots of folders
 must be created. Lots of comments included. I have to devise new systems for
 conveying change information and get the team to agree to standardize on the
 system. Most importantly, I don't have the version control, the automated
-comparison tools, etc. 
+comparison tools, etc.
+
+***
+
+Q6:
+When would you want to make changes in a separate branch rather than directly
+in master? What benefits does each approach have?
+
+A6:
+Almost always in a production environment. Master would contain your production
+code, ready to serve to the world. Use branches to explore new features, to
+work on refactoring, fixes you want to test, etc. Also, I'd always want to use
+branches when I'm collaborating. I never want to force my changes on the rest
+of the team, and many times (I'm guessing) my work would need to go through a
+code review before getting merged anyway. Branches are perfect for all of these
+scenarios.
+
+Obviously, working directly in master is much simpler. If I'm updating
+documentation, fixing typos, doing small stuff that's obvious and straight-
+forward, I can probably safely work directly in master.
