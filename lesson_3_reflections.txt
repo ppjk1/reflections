@@ -35,3 +35,14 @@ I would use branches within a local repository, clones to copy an existing
 local or remote repository (such as a fork on Github), and a fork to create
 a new instance of a repository on GitHub that I can edit and maintain while
 still giving recognition to the original owner.
+
+***
+
+Q4:
+What is the benefit of having a copy of the last known state of the remote
+stored locally?
+
+A4:
+You can pull down other team member's contributions and then access them
+off-line for local comparison. Well, and I assume it's always easier to deal
+with conflicts locally.
